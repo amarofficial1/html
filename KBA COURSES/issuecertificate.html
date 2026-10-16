@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Certificate</title>
+</head>
+<body>
+    <h2><font face="arial">Certificate Dapp</font></h2>
+    <table align="right" cellspacing="5">
+        <tr>
+            <td>
+                <a href="./frontpage.html">Home</a>
+                <a href="./issuecertificate.html"><mark style="background-color: aqua;">IssueCertificate</mark></a>
+            </td>
+        </tr>
+    </table>
+    <center>
+        <form action="viewcertificate.html">
+        <table>
+            <tr>
+                <td>
+                    <h1>Issue New Certificate</h1><br>
+                    Select certificate* <br>
+                    <select name="certificate">
+                        <option value="certified blockchain associate">Certified Blockchain Associate</option>
+                        <option value="certified ethical hacker">Certified Ethical Hacker</option>
+                        <option value="certified MERN stack developer">Certified MERN Stack developer</option>
+                    </select>
+                    <br><br>
+                    Certificate ID* <br>
+                    <input type="text" placeholder="Certificate ID" required>
+                    <br><br>
+                    Candidate Name* <br>
+                    <input type="text" placeholder="Name" required>
+                    <br><br>
+                     Select Grade* <br>
+                    <select name="grade">
+                        <option value="S">S</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                    </select>
+                    <br><br>
+                    Issue Date* <br>
+                    <input type="date" required>
+                    <br><br>
+                    
+                    <input type="submit" value="Issue Certificate">
+
+
+                </td>
+            </tr>
+        </table>
+        </form>
+</body>
+</html>
